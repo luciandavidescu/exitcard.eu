@@ -133,49 +133,6 @@
 onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</button>
     </article>
 
-    <article id="paysera" class="merchant masspay iban">
-      <h2>Paysera</h2>
-	<data value="45" title="4,5 stars"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="paysera.jpg" alt="Paysera Visa" /></picture>
-        <figcaption>Only version</figcaption>
-      </figure>
-      <section>
-        <h3>Features</h3><dl>
-        <dt>Card currency</dt><dd>€</dd>
-        <dt>Accounts</dt><dd>EUR,USD,CHF,+</dd>
-        <dt>Options</dt><dd>IBAN account (!!!)</dd>
-	</dl>
-      </section>
-      <section>
-         <h3>Cost</h3><dl>
-        <dt>Issue fee</dt><dd>3€</dd>
-        <dt>Maintenance fee</dt><dd>0,45€/month</dd>
-        <dt>Inactivity</dt><dd>N/A</dd>
-        <dt>Deposit from external account</dt><dd>0</dd>
-        <dt>Deposit from a card</dt><dd>N/A</dd>
-        <dt>Transfer to any account</dt><dd>0-0,15 euro</dd>
-        <dt>Transfer to any card</dt><dd>N/A</dd>
-	<dt>Transfer between users</dt><dd>0</dd>
-        <dt>E-wallet to card transfer</dt><dd>0</dd>
-        <dt>ATM withdrawal</dt><dd>1€</dd>
-        <dt>POS/online payment</dt><dd>0 în zona euro / 0,1€ + schimb în rest</dd>
-        <dt>Currency exchange</dt><dd>2%</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitations</h3>
-        <p>High fees for online or POS payments outside the Euro Zone or in a different currency</p>
-      </section>
-      <section>
-        <h3>Benefits</h3>
-        <p>Lowest ATM fees</p>
-        <p>Local accounts open in banks in most european countries</p>
-      </section>
-	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</button>
-    </article>
-
     <article id="payoneer" class="merchant masspay iban usa bonus">
       <h2>Payoneer</h2>
 	<data value="45" title="4,5 stars"></data>
@@ -210,7 +167,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</butt
       </section>
       <section>
         <h3>Limitations</h3>
-        <p>Can't normally be funded by the owner, just customers or employers.</p>
+        <p>Can't normally be funded by the owner, just by customers or employers.</p>
       </section>
       <section>
         <h3>Benefits</h3>
@@ -220,6 +177,49 @@ onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</butt
       </section>
 <button type="submit" form="out" title="payoneer" formaction="payoneer.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">ORDER THE CARD</button>
+    </article>
+
+    <article id="paysera" class="merchant masspay iban">
+      <h2>Paysera</h2>
+	<data value="45" title="4,5 stars"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="paysera.jpg" alt="Paysera Visa" /></picture>
+        <figcaption>Only version</figcaption>
+      </figure>
+      <section>
+        <h3>Features</h3><dl>
+        <dt>Card currency</dt><dd>€</dd>
+        <dt>Accounts</dt><dd>EUR,USD,CHF,+</dd>
+        <dt>Options</dt><dd>IBAN account (!!!)</dd>
+	</dl>
+      </section>
+      <section>
+         <h3>Cost</h3><dl>
+        <dt>Issue fee</dt><dd>3€</dd>
+        <dt>Maintenance fee</dt><dd>0,45€/month</dd>
+        <dt>Inactivity</dt><dd>N/A</dd>
+        <dt>Deposit from external account</dt><dd>0</dd>
+        <dt>Deposit from a card</dt><dd>N/A</dd>
+        <dt>Transfer to any account</dt><dd>0-0,15 euro</dd>
+        <dt>Transfer to any card</dt><dd>N/A</dd>
+	<dt>Transfer between users</dt><dd>0</dd>
+        <dt>E-wallet to card transfer</dt><dd>0</dd>
+        <dt>ATM withdrawal</dt><dd>1€</dd>
+        <dt>POS/online payment</dt><dd>0 in Euro Zone / 0,1€ + FX elsewhere</dd>
+        <dt>Currency exchange</dt><dd>2%</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitations</h3>
+        <p>High fees for online or POS payments outside the Euro Zone or in a different currency</p>
+      </section>
+      <section>
+        <h3>Benefits</h3>
+        <p>Lowest ATM fees</p>
+        <p>Local accounts open in banks in most european countries</p>
+      </section>
+	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</button>
     </article>
 
 <article id="skrill" class="merchant masspay betting">
@@ -512,7 +512,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');">ORDER THE CARD</butto
         <dt>Deposit from a card</dt><dd>3,5%</dd>
         <dt>Transfer to any account</dt><dd>15$</dd>
         <dt>Transfer to any card</dt><dd>8$</dd>
-       <dt>Transfer between users</dt><dd>0 (trimitere)/2,9%+0,25€</dd>
+       <dt>Transfer between users</dt><dd>0 (sending)/2,9%+0,25€</dd>
         <dt>E-wallet to card transfer</dt><dd>1$</dd>
         <dt>ATM withdrawal</dt><dd>2,5$</dd>
         <dt>POS/online payment</dt><dd>1$</dd>
