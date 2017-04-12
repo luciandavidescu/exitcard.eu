@@ -66,7 +66,8 @@
   <ul>
           <li title="+"><b>Online commerce: </b>Some platforms (usually their "business" versions) will allow receiving payments from customers.</li>
           <li title="+"><b>Mass payments: </b>Most platforms will allow for transfers to multiple recipients at once.</li>
-          <li title="+"><b>IBAN accountt: </b>Most issuers will use sub-accounts, but there are a few who assign each user with their own individual IBAN.</li>
+          <li title="+"><b>IBAN account: </b>Most issuers will use sub-accounts, but there are a few who assign each user with their own individual IBAN.</li>
+          <li title="+"><b>Retragere Paypal: </b>Some cards can be loaded directly from the Paypal balance either via account (free) or directly to the card for a 5% fee (only for VISA). To pay with Paypal, any of the cards can be used as long as they have a balance.</li>
           <li title="+"><b>Virtual cars: </b>If your in a hurry, there may be the option of asking for a virtual card, issued instantly and usually cheaper than its plastic counterpart - you get a card number, an expiry date and the CVC - that you can use for online payments.</li>
           <li title="+"><b>Anonymousity: </b>Some issuers will take the application without asking for documents, in which case there will be limits on the total payments. Limits are lifted as soon as documents are submitted. These "anonymous" card can be also used if you want to order the card for someone else - as a gift or for a child.</li>
           <li title="+"><b>Bitcoin Transfer: </b>Some cards can be anonymously and cheaply funded via Bitcoin. Beware of price volatitlity and technical procedure, or Bitcoin can forever be lost.</li>
@@ -89,7 +90,7 @@
 
 </main>
 
-    <article id="viabuy" class="iban exclusive">
+    <article id="viabuy">
       <h2>Viabuy</h2>
 	<data value="5" title="Five stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -100,7 +101,7 @@
         <h3>Features</h3><dl>
         <dt>Card currency</dt><dd>€</dd>
         <dt>Accounts</dt><dd>EUR</dd>
-        <dt>Options</dt><dd>IBAN account</dd>
+        <dt>Options</dt><dd>IBAN account, Paypal</dd>
 	</dl>
       </section>
       <section>
@@ -128,12 +129,13 @@
 	<p>Lowest long-term relative costs if frequently used, either online, with POS or for banking transfers.</p>
         <p>Fastest and easiest registration procedure</p>
         <p>Can be funded from another card</p>
+	<p>The account can be loaded from Paypal</p>
       </section>
 <button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</button>
     </article>
 
-    <article id="payoneer" class="merchant masspay iban usa bonus">
+    <article id="payoneer">
       <h2>Payoneer</h2>
 	<data value="4" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -168,6 +170,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</butto
       <section>
         <h3>Limitations</h3>
         <p>Can't normally be funded by the owner, just by customers or employers.</p>
+	<p>The account is NOT accepted by Paypal</p>
       </section>
       <section>
         <h3>Benefits</h3>
@@ -179,7 +182,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">ORDER THE CARD</button>
     </article>
 
-<article id="sogexia" class="iban">
+<article id="sogexia">
       <h2>Sogexia</h2>
 	<data value="4" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -218,12 +221,13 @@ onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">ORDER THE CARD</but
       <section>
         <h3>Benefits</h3>
         <p>One of the lowest ATM fees</p>
+	<p>The account can be loaded from Paypal</p>
       </section>
 	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">ORDER THE CARD</button>
     </article>
 
-    <article id="paysera" class="merchant masspay iban">
+    <article id="paysera">
       <h2>Paysera</h2>
 	<data value="4" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -261,12 +265,13 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">ORDER THE CARD</butt
         <h3>Benefits</h3>
         <p>One of the lowest ATM fees</p>
         <p>Local accounts open in banks from most EU countries</p>
+	<p>The account and card can be loaded from Paypal</p>
       </section>
 	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</button>
     </article>
 
-<article id="skrill" class="merchant masspay betting">
+<article id="skrill">
       <h2>Skrill</h2>
 	<data value="3" title="Three stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -355,7 +360,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'skrill');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</button>
     </article>
 
-    <article id="epayments" class="merchant masspay anonymous bitcoin">
+    <article id="epayments">
       <h2>ePayments</h2>
 	<data value="3" title="Three stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -399,7 +404,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'epayments');">ORDER THE CARD</button>
     </article>
 
-    <article id="worldcore" class="bitcoin">
+    <article id="worldcore">
       <h2>Worldcore</h2>
 	<data value="2" title="Two stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -444,7 +449,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'worldcore');">ORDER THE CARD</bu
     </article>
 
 
-    <article id="advcash" class="virtual anonymous bitcoin">
+    <article id="advcash">
       <h2>AdvCash</h2>
 	<data value="2" title="Two stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -532,7 +537,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">ORDER THE CARD</butt
 onclick="ga('send', 'event', 'cards', 'order', 'payeer');">ORDER THE CARD</button>
     </article>
 
-<article id="payza" class="bitcoin">
+<article id="payza">
       <h2>Payza</h2>
 	<data value="1" title="One star"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -576,7 +581,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'payza');">ORDER THE CARD</button>
     </article>
 
-    <article id="okpay" class="merchant masspay transfer virtual bitcoin">
+    <article id="okpay">
       <h2>OKpay</h2>
 	<data value="1" title="One star"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
