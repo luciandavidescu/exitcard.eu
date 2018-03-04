@@ -131,7 +131,7 @@
 	<p>The bank account is compatible with Paypal withdrawals</p>
       </section>
 <button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'viabuy');" disabled>ORDER THE CARD</button>
     </article>
 	
     <article id="payoneer">
@@ -181,51 +181,6 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">ORDER THE CARD</button>
     </article>
 
-<article id="sogexia">
-      <h2>Sogexia</h2>
-	<data value="4" title="Four stars"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="sogexia.jpg" alt="Sogexia Mastercard" /></picture>
-        <figcaption>France</figcaption>
-      </figure>
-      <section>
-        <h3>Features</h3>
-	<dl>
-        <dt>Card currency</dt><dd>€</dd>
-        <dt>Accounts</dt><dd>EUR</dd>
-        <dt>Options</dt><dd>IBAN account</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Cost</h3>
-	<dl>
-        <dt>Issuance fee</dt><dd>9,9€</dd>
-        <dt>Mentenance fee</dt><dd>0</dd>
-        <dt>Inactivity</dt><dd>3€/mo. after 9 months</dd>
-        <dt>Deposit from external account</dt><dd>2%</dd>
-        <dt>Deposit from a card</dt><dd>2,5%</dd>
-        <dt>Transfer to any account</dt><dd>0</dd>
-        <dt>Transfer to any card</dt><dd>N/A</dd>
-	<dt>Transfer between users</dt><dd>0</dd>
-        <dt>E-wallet to card transfer</dt><dd>0</dd>
-        <dt>ATM withdrawal</dt><dd>1€</dd>
-        <dt>POS/online payment</dt><dd>0</dd>
-        <dt>Currency exchange</dt><dd>3%</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitations</h3>
-        <p>A 2% fee on received amounts is burdensome for large volumes</p>
-	<p>The bank account is from UK, hence not compatible with Paypal withdrawals</p>
-      </section>
-      <section>
-        <h3>Benefits</h3>
-        <p>One of the lowest ATM fees</p>
-      </section>
-	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">ORDER THE CARD</button>
-    </article>
-	
     <article id="paysera">
       <h2>Paysera</h2>
 	<data value="4" title="Four stars"></data>
@@ -268,6 +223,51 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">ORDER THE CARD</butt
       </section>
 	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</button>
+    </article>
+	
+<article id="sogexia">
+      <h2>Sogexia</h2>
+	<data value="4" title="Four stars"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="sogexia.jpg" alt="Sogexia Mastercard" /></picture>
+        <figcaption>France</figcaption>
+      </figure>
+      <section>
+        <h3>Features</h3>
+	<dl>
+        <dt>Card currency</dt><dd>€</dd>
+        <dt>Accounts</dt><dd>EUR</dd>
+        <dt>Options</dt><dd>IBAN account</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Cost</h3>
+	<dl>
+        <dt>Issuance fee</dt><dd>9,9€</dd>
+        <dt>Mentenance fee</dt><dd>0</dd>
+        <dt>Inactivity</dt><dd>3€/mo. after 9 months</dd>
+        <dt>Deposit from external account</dt><dd>2%</dd>
+        <dt>Deposit from a card</dt><dd>2,5%</dd>
+        <dt>Transfer to any account</dt><dd>0</dd>
+        <dt>Transfer to any card</dt><dd>N/A</dd>
+	<dt>Transfer between users</dt><dd>0</dd>
+        <dt>E-wallet to card transfer</dt><dd>0</dd>
+        <dt>ATM withdrawal</dt><dd>1€</dd>
+        <dt>POS/online payment</dt><dd>0</dd>
+        <dt>Currency exchange</dt><dd>3%</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitations</h3>
+        <p>A 2% fee on received amounts is burdensome for large volumes</p>
+	<p>The bank account is from UK, hence not compatible with Paypal withdrawals</p>
+      </section>
+      <section>
+        <h3>Benefits</h3>
+        <p>One of the lowest ATM fees</p>
+      </section>
+	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'sogexia');" disabled>ORDER THE CARD</button>
     </article>
 
 <article id="skrill">
@@ -356,7 +356,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'skrill');">ORDER THE CARD</butto
         <p>Being able to load from another card</p>
       </section>
 	<button type="submit" form="out" title="paymix" formaction="paymix.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'paymix');" disabled>ORDER THE CARD</button>
     </article>
 
     <article id="epayments">
@@ -400,7 +400,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</butto
         <p>Lowest fee for transfer to another card: 3,5%.</p>
       </section>
 	<button type="submit" form="out" title="epayments" formaction="epayments.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'epayments');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'epayments');" disabled>ORDER THE CARD</button>
     </article>
 
     <article id="worldcore">
@@ -444,7 +444,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'epayments');">ORDER THE CARD</bu
         <p>Fixed ATM fee favors large withdrawals</p>
       </section>
 	<button type="submit" form="out" title="worldcore" formaction="worldcore.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'worldcore');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'worldcore');" disabled>ORDER THE CARD</button>
     </article>
 
 
@@ -533,7 +533,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">ORDER THE CARD</butt
         <p>Highest ATM limits: 5x1000 euro daily.</p>
       </section>
 	<button type="submit" form="out" title="payeer" formaction="payeer.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'payeer');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'payeer');" disabled>ORDER THE CARD</button>
     </article>
 
     <article id="okpay">
@@ -577,7 +577,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');">ORDER THE CARD</butto
         <p>Can be funded via QIWI machines</p>
       </section>
 	<button type="submit" form="out" title="okpay" formaction="okpay.html"
-onclick="ga('send', 'event', 'cards', 'order', 'okpay');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'okpay');" disabled>ORDER THE CARD</button>
     </article>
 
 <article id="payza">
@@ -621,7 +621,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'okpay');">ORDER THE CARD</button
         <p>Great flexibility about locations and industries accepted</p>
       </section>
 	<button type="submit" form="out" title="payza" formaction="payza.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'payza');">ORDER THE CARD</button>
+onclick="ga('send', 'event', 'cards', 'order', 'payza');" disabled>ORDER THE CARD</button>
     </article>
 
 <footer>
