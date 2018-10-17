@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -88,10 +88,55 @@
 </div>
 
 </main>
+	
+<article id="viabuy">
+      <h2>Viabuy</h2>
+	<data value="5" title="Five stars"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="viabuy.gif" alt="Viabuy Mastercard" /></picture>
+        <figcaption>Germany</figcaption>
+      </figure>
+      <section>
+        <h3>Features</h3><dl>
+        <dt>Card currency</dt><dd>€</dd>
+        <dt>Accounts</dt><dd>EUR</dd>
+        <dt>Options</dt><dd>IBAN account, Contactless, Bitcoin, Paypal, Paysafecard</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Cost</h3><dl>
+        <dt>Issuance fee</dt><dd>69,9€</dd>
+        <dt>Maintenance fee</dt><dd>19,9 €/year</dd>
+        <dt>Inactivity</dt><dd>10€/month after 12 months</dd>
+        <dt>Deposit from external account</dt><dd>0</dd>
+        <dt>Deposit from a card</dt><dd>1,75%</dd>
+        <dt>Transfer to any account</dt><dd>0</dd>
+        <dt>Transfer to any card</dt><dd>N/A</dd>
+	<dt>Transfer between users</dt><dd>0</dd>
+        <dt>E-wallet to card transfer</dt><dd>0</dd>
+        <dt>ATM withdrawal</dt><dd>5€</dd>
+        <dt>POS/online payment</dt><dd>0</dd>
+        <dt>Currency exchange</dt><dd>2,75%</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitations</h3>
+        <p>When you send money from the account, the name of the sender is "PPRO Financial LTD"</p>
+      </section>
+      <section>
+        <h3>Benefits</h3>
+	<p>Lowest long-term relative costs if frequently used, either online, with POS or for banking transfers.</p>
+        <p>Fastest and easiest registration procedure</p>
+        <p>Can be funded from another card</p>
+	<p>The bank account is compatible with Paypal withdrawals</p>
+      </section>
+<button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'viabuy');" disabled>ORDER THE CARD</button>
+    </article>
 
     <article id="payoneer">
       <h2>Payoneer</h2>
-	<data value="5" title="Five stars"></data>
+	<data value="4" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
         <picture><img src="payoneer.jpg" alt="Payoneer Mastercard" /></picture>
         <figcaption>USA</figcaption>
@@ -183,7 +228,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</butto
 
     <article id="paysera">
       <h2>Paysera</h2>
-	<data value="4" title="Four stars"></data>
+	<data value="3" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
         <picture><img src="paysera.jpg" alt="Paysera Visa" /></picture>
         <figcaption>Lithuania</figcaption>
@@ -225,52 +270,51 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">ORDER THE CARD</butto
 onclick="ga('send', 'event', 'cards', 'order', 'paysera');">ORDER THE CARD</button>
     </article>
 	
-<article id="viabuy">
-      <h2>Viabuy</h2>
-	<data value="4" title="Four stars"></data>
+    <article id="epayments" hidden>
+      <h2>ePayments</h2>
+	<data value="3" title="Three stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="viabuy.gif" alt="Viabuy Mastercard" /></picture>
-        <figcaption>Germany</figcaption>
+        <picture><img src="epayments.jpg" alt="ePayments Mastercard" /></picture>
+        <figcaption>United Kingdom</figcaption>
       </figure>
       <section>
-        <h3>Features</h3><dl>
-        <dt>Card currency</dt><dd>€</dd>
-        <dt>Accounts</dt><dd>EUR</dd>
-        <dt>Options</dt><dd>IBAN account, Contactless, Bitcoin, Paypal, Paysafecard</dd>
+        <h3>Features</h3>
+	<dl>
+        <dt>Card currency</dt><dd>€/$</dd>
+        <dt>Accounts</dt><dd>EUR,USD,RUB</dd>
+        <dt>Options</dt><dd>Anonymous, Bitcoin</dd>
 	</dl>
       </section>
       <section>
-        <h3>Cost</h3><dl>
-        <dt>Issuance fee</dt><dd>69,9€</dd>
-        <dt>Maintenance fee</dt><dd>19,9 €/year</dd>
-        <dt>Inactivity</dt><dd>10€/month after 12 months</dd>
+        <h3>Cost</h3>
+	<dl>
+        <dt>Issuance fee</dt><dd>5€</dd>
+        <dt>Maintenance fee</dt><dd>2,4€/month (0 for mo. spending > €300)</dd>
+        <dt>Inactivity</dt><dd>8€/month after 6 months</dd>
         <dt>Deposit from external account</dt><dd>0</dd>
-        <dt>Deposit from a card</dt><dd>1,75%</dd>
-        <dt>Transfer to any account</dt><dd>0</dd>
-        <dt>Transfer to any card</dt><dd>N/A</dd>
+        <dt>Deposit from a card</dt><dd>2,6%</dd>
+        <dt>Transfer to any account</dt><dd>75€ - 125€</dd>
+        <dt>Transfer to any card</dt><dd>3,5%</dd>
 	<dt>Transfer between users</dt><dd>0</dd>
         <dt>E-wallet to card transfer</dt><dd>0</dd>
-        <dt>ATM withdrawal</dt><dd>5€</dd>
+        <dt>ATM withdrawal</dt><dd>2,4€</dd>
         <dt>POS/online payment</dt><dd>0</dd>
-        <dt>Currency exchange</dt><dd>2,75%</dd>
+        <dt>Currency exchange</dt><dd>2,6%</dd>
 	</dl>
       </section>
       <section>
         <h3>Limitations</h3>
-        <p>When you send money from the account, the name of the sender is "PPRO Financial LTD"</p>
+        <p>SEPA transfers not available.</p>
       </section>
       <section>
         <h3>Benefits</h3>
-	<p>Lowest long-term relative costs if frequently used, either online, with POS or for banking transfers.</p>
-        <p>Fastest and easiest registration procedure</p>
-        <p>Can be funded from another card</p>
-	<p>The bank account is compatible with Paypal withdrawals</p>
+        <p>Lowest fee for transfer to another card: 3,5%.</p>
       </section>
-<button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'viabuy');" disabled>ORDER THE CARD</button>
+	<button type="submit" form="out" title="epayments" formaction="epayments.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'epayments');" disabled>ORDER THE CARD</button>
     </article>
 	
-<article id="sogexia">
+<article id="sogexia" hidden>
       <h2>Sogexia</h2>
 	<data value="4" title="Four stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -315,7 +359,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');" disabled>ORDER THE CA
 onclick="ga('send', 'event', 'cards', 'order', 'sogexia');" disabled>ORDER THE CARD</button>
     </article>
 
-<article id="skrill">
+<article id="skrill" hidden>
       <h2>Skrill</h2>
 	<data value="3" title="Three stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -359,51 +403,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');" disabled>ORDER THE C
 onclick="ga('send', 'event', 'cards', 'order', 'skrill');">ORDER THE CARD</button>
     </article>
 
-    <article id="epayments">
-      <h2>ePayments</h2>
-	<data value="3" title="Three stars"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="epayments.jpg" alt="ePayments Mastercard" /></picture>
-        <figcaption>United Kingdom</figcaption>
-      </figure>
-      <section>
-        <h3>Features</h3>
-	<dl>
-        <dt>Card currency</dt><dd>€/$</dd>
-        <dt>Accounts</dt><dd>EUR,USD,RUB</dd>
-        <dt>Options</dt><dd>Anonymous, Bitcoin</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Cost</h3>
-	<dl>
-        <dt>Issuance fee</dt><dd>5€</dd>
-        <dt>Maintenance fee</dt><dd>2,4€/month (0 for mo. spending > €300)</dd>
-        <dt>Inactivity</dt><dd>8€/month after 6 months</dd>
-        <dt>Deposit from external account</dt><dd>0</dd>
-        <dt>Deposit from a card</dt><dd>2,6%</dd>
-        <dt>Transfer to any account</dt><dd>75€ - 125€</dd>
-        <dt>Transfer to any card</dt><dd>3,5%</dd>
-	<dt>Transfer between users</dt><dd>0</dd>
-        <dt>E-wallet to card transfer</dt><dd>0</dd>
-        <dt>ATM withdrawal</dt><dd>2,4€</dd>
-        <dt>POS/online payment</dt><dd>0</dd>
-        <dt>Currency exchange</dt><dd>2,6%</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitations</h3>
-        <p>SEPA transfers not available.</p>
-      </section>
-      <section>
-        <h3>Benefits</h3>
-        <p>Lowest fee for transfer to another card: 3,5%.</p>
-      </section>
-	<button type="submit" form="out" title="epayments" formaction="epayments.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'epayments');" disabled>ORDER THE CARD</button>
-    </article>
-
-    <article id="worldcore">
+    <article id="worldcore" hidden>
       <h2>Worldcore</h2>
 	<data value="2" title="Two stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -448,7 +448,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'worldcore');" disabled>ORDER THE
     </article>
 
 
-    <article id="advcash">
+    <article id="advcash" hidden>
       <h2>AdvCash</h2>
 	<data value="2" title="Two stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -492,7 +492,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'worldcore');" disabled>ORDER THE
 onclick="ga('send', 'event', 'cards', 'order', 'advcash');">ORDER THE CARD</button>
     </article>
 
-    <article id="payeer">
+    <article id="payeer" hidden>
       <h2>Payeer</h2>
 	<data value="2" title="Two stars"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -536,7 +536,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">ORDER THE CARD</butt
 onclick="ga('send', 'event', 'cards', 'order', 'payeer');" disabled>ORDER THE CARD</button>
     </article>
 
-    <article id="okpay">
+    <article id="okpay" hidden>
       <h2>OKpay</h2>
 	<data value="1" title="One star"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -580,7 +580,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');" disabled>ORDER THE CA
 onclick="ga('send', 'event', 'cards', 'order', 'okpay');" disabled>ORDER THE CARD</button>
     </article>
 
-<article id="payza">
+<article id="payza" hidden>
       <h2>Payza</h2>
 	<data value="1" title="One star"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
